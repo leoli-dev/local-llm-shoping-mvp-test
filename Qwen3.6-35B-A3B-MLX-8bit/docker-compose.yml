@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - JWT_SECRET=ecommerce-jwt-secret-key-change-in-production
+      - JWT_REFRESH_SECRET=ecommerce-refresh-secret-key-change-in-production
+    volumes:
+      - db-data:/app/prisma
+    command: >
+      sh -c "
+        npx prisma migrate deploy &&
+        npx prisma db seed &&
+        npm start
+      "
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  db-data:

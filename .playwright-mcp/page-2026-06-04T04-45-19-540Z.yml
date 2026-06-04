@@ -1,0 +1,47 @@
+- generic [ref=e108]:
+  - banner [ref=e109]:
+    - heading "ShopMVP" [level=1] [ref=e110]:
+      - link "ShopMVP" [ref=e111] [cursor=pointer]:
+        - /url: "#/"
+    - navigation [ref=e112]:
+      - generic [ref=e113]: Hello, john
+      - link "Cart" [ref=e114] [cursor=pointer]:
+        - /url: "#/cart"
+        - text: Cart
+      - link "Orders" [ref=e116] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Logout" [ref=e117] [cursor=pointer]:
+        - /url: "#/logout"
+  - main [ref=e118]:
+    - heading "Shopping Cart" [level=1] [ref=e119]
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - img "Wireless Headphones" [ref=e123]
+          - generic [ref=e124]:
+            - heading "Wireless Headphones" [level=3] [ref=e125]
+            - paragraph [ref=e126]: $199.99
+          - generic [ref=e127]:
+            - button "-" [ref=e128] [cursor=pointer]
+            - spinbutton [ref=e129]: "2"
+            - button "+" [ref=e130] [cursor=pointer]
+          - paragraph [ref=e132]: $399.98
+        - generic [ref=e133]:
+          - img "Leather Backpack" [ref=e134]
+          - generic [ref=e135]:
+            - heading "Leather Backpack" [level=3] [ref=e136]
+            - paragraph [ref=e137]: $149.99
+          - generic [ref=e138]:
+            - button "-" [ref=e139] [cursor=pointer]
+            - spinbutton [ref=e140]: "1"
+            - button "+" [ref=e141] [cursor=pointer]
+          - paragraph [ref=e143]: $149.99
+      - generic [ref=e144]:
+        - heading "Order Summary" [level=2] [ref=e145]
+        - generic [ref=e146]:
+          - generic [ref=e147]: Subtotal
+          - generic [ref=e148]: $549.97
+        - generic [ref=e149]:
+          - generic [ref=e150]: Total
+          - generic [ref=e151]: $549.97
+        - button "Proceed to Checkout" [ref=e152] [cursor=pointer]

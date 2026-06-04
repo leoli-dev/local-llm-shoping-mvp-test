@@ -1,0 +1,87 @@
+- generic [ref=e16]:
+  - banner [ref=e17]:
+    - heading "ShopMVP" [level=1] [ref=e18]:
+      - link "ShopMVP" [ref=e19] [cursor=pointer]:
+        - /url: "#/"
+    - navigation [ref=e20]:
+      - generic [ref=e21]: Hello, john
+      - link "Cart (2)" [ref=e22] [cursor=pointer]:
+        - /url: "#/cart"
+      - link "Orders" [ref=e23] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Logout" [ref=e24] [cursor=pointer]:
+        - /url: "#/logout"
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - textbox "Search products..." [ref=e27]
+      - combobox [ref=e28]:
+        - option "All Categories" [selected]
+        - option "Electronics"
+        - option "Fashion"
+        - option "Sports"
+        - option "Home"
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - img "Wireless Headphones" [ref=e31]
+        - generic [ref=e32]:
+          - heading "Wireless Headphones" [level=3] [ref=e33]
+          - paragraph [ref=e34]: Premium noise-canceling wireless headphones with 30-hour battery life
+          - generic [ref=e35]:
+            - generic [ref=e36]: $199.99
+            - generic [ref=e37]: 50 in stock
+          - link "View Details" [ref=e38] [cursor=pointer]:
+            - /url: "#/product/1"
+      - generic [ref=e39]:
+        - img "Smart Watch" [ref=e40]
+        - generic [ref=e41]:
+          - heading "Smart Watch" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Fitness tracking smartwatch with heart rate monitor and GPS
+          - generic [ref=e44]:
+            - generic [ref=e45]: $299.99
+            - generic [ref=e46]: 30 in stock
+          - link "View Details" [ref=e47] [cursor=pointer]:
+            - /url: "#/product/2"
+      - generic [ref=e48]:
+        - img "Leather Backpack" [ref=e49]
+        - generic [ref=e50]:
+          - heading "Leather Backpack" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Genuine leather backpack with laptop compartment
+          - generic [ref=e53]:
+            - generic [ref=e54]: $149.99
+            - generic [ref=e55]: 25 in stock
+          - link "View Details" [ref=e56] [cursor=pointer]:
+            - /url: "#/product/3"
+      - generic [ref=e57]:
+        - img "Running Shoes" [ref=e58]
+        - generic [ref=e59]:
+          - heading "Running Shoes" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Lightweight performance running shoes with cushioned sole
+          - generic [ref=e62]:
+            - generic [ref=e63]: $129.99
+            - generic [ref=e64]: 40 in stock
+          - link "View Details" [ref=e65] [cursor=pointer]:
+            - /url: "#/product/4"
+      - generic [ref=e66]:
+        - img "Coffee Maker" [ref=e67]
+        - generic [ref=e68]:
+          - heading "Coffee Maker" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Programmable drip coffee maker with thermal carafe
+          - generic [ref=e71]:
+            - generic [ref=e72]: $89.99
+            - generic [ref=e73]: 20 in stock
+          - link "View Details" [ref=e74] [cursor=pointer]:
+            - /url: "#/product/5"
+      - generic [ref=e75]:
+        - img "Mechanical Keyboard" [ref=e76]
+        - generic [ref=e77]:
+          - heading "Mechanical Keyboard" [level=3] [ref=e78]
+          - paragraph [ref=e79]: RGB backlit mechanical keyboard with Cherry MX switches
+          - generic [ref=e80]:
+            - generic [ref=e81]: $159.99
+            - generic [ref=e82]: 35 in stock
+          - link "View Details" [ref=e83] [cursor=pointer]:
+            - /url: "#/product/6"
+    - generic [ref=e84]:
+      - button "Prev" [disabled] [ref=e85]
+      - generic [ref=e86]: Page 1 of 2
+      - button "Next" [ref=e87] [cursor=pointer]
